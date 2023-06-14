@@ -1,0 +1,141 @@
+ body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; diceweb
+ }
+.background {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    display: flex;
+    flex: 1fr;
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(248, 248, 248);
+    z-index: 1;
+}
+.header img {
+    background: transparent;
+    cursor: pointer;
+
+}
+.nav-bar ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-bar li {
+    display: inline;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    transition: border-bottom 0.1s ease-in;
+    border-bottom: rgb(248, 248, 248, 0.6);
+}
+.nav-bar a:hover {
+    border-bottom: 3px solid rgb(95, 95, 95);
+}
+.header button {
+    height: 50%;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header button:hover {
+    background-color: rgb(100, 99, 99);
+}
+.back-photo {
+    width: 100%;
+    height:100%;
+    opacity: 0.9;
+}
+.img-div {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.text {
+    color: black;
+    position: absolute;
+    opacity: 0.8;
+    top: 30%;
+    left: 4.5%;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 2;
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+}
+.collection-btn {
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.collection-btn:hover {
+    background-color: black;
+    color: white;
+}
+.content {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    border: 5px solid white;
+}
+div.gallery {
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+}
+.buy-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.add-btn {
+    margin-left: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.sld {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
